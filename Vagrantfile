@@ -70,7 +70,7 @@ Vagrant.configure("2") do |config|
     apt-get update
     apt-get dist-upgrade -y
     apt-get install -y \
-        build-essential
+        build-essential htop
     apt-get install -y \
         apt-transport-https \
         ca-certificates \
